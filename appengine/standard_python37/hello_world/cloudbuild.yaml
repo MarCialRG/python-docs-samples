@@ -1,0 +1,4 @@
+steps:
+- name: "gcr.io/cloud-builders/gcloud"
+  args: ["app", "deploy", "appengine/standard_python37/hello_world/app.yaml"]
+timeout: "1600s"
